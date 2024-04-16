@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccept"
+>
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logo"
+        android:layout_below="@id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Империя Вкуса"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrymaryDark"
+        android:textSize="31sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="100dp"
+        />
+
+
+    <android.widget.Button
+        android:id="@+id/productsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@id/contactsBtn"
+        android:background="@drawable/button"
+        android:padding="20dp"
+        android:text="Каталог товаров"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+        <android.widget.Button
+            android:id="@+id/aboutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_above="@id/productsBtn"
+            android:background="@drawable/button"
+            android:padding="20dp"
+            android:text="О нас"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            />
+
+    <android.widget.Button
+        android:id="@+id/contactsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        android:padding="20dp"
+        android:text="Наши контакты"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</RelativeLayout>

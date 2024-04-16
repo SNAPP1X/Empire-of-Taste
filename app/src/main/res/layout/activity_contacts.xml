@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccept"
+    tools:context=".ContactsActivity">
+
+    <TextView
+        android:id="@+id/sloganAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Контакты"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrymaryDark"
+        />
+
+    <android.widget.Button
+        android:id="@+id/backContactsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input_design"
+        android:text="Назад"
+        android:textColor="@color/colorPrymaryDark"/>
+    <TextView
+        android:id="@+id/aboutMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sloganAbout"
+        android:text="НАШ АДРЕС: Московский проспект 22, Воронеж, Россия\n  НАШ НОМЕР: +1 123-456-7890\n НАША ПОЧТА: mail@example.com"
+        android:textAllCaps="false"
+        android:padding="22dp"
+        android:background="@drawable/input_design"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrymaryDark"
+        />
+
+    <TextView
+        android:id="@+id/contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:layout_below="@id/aboutMe"
+        android:padding="22dp"
+        android:text="Смотреть подробнее..."
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrymaryDark"
+        />
+
+</RelativeLayout>
