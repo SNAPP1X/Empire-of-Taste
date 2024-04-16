@@ -13,18 +13,6 @@
         android:theme="@style/Theme.Kravcov"
         tools:targetApi="31">
         <activity
-            android:name=".OilInfoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SpairInfoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DiagnosticInfoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DetailingInfoActivity"
-            android:exported="false" />
-        <activity
             android:name=".ContactsActivity"
             android:exported="false" />
         <activity
